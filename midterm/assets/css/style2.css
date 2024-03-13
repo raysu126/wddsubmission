@@ -1,0 +1,168 @@
+.nav {
+    height: 105px
+}
+
+.nav--button--back {
+    position: absolute;
+    top: 57px;
+    left: 78px;
+    font-family: "Lekton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.nav--button--back:hover {
+    color: #1790ff;
+}
+
+.logo {
+    position: absolute;
+    top: 147px;
+    left: 176px;
+    width: 306px;
+    height: 124px;
+}
+
+.open--hour {
+    position: absolute;
+    top: 215px;
+    left: 579px;
+    font-family: "Lekton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.contact--info {
+    position: absolute;
+    font-size: 64px;
+    top: 104px;
+    left: 1015px;
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.main {
+    font-family: "Lekton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.popular--products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular--products--list {
+    position: absolute;
+    top: 400px;
+    left: 102px;
+    font-size: 32px;
+}
+
+.popular--products--description {
+    font-size: 24px;
+}
+
+.products--list {
+    position: absolute;
+    top: 730px;
+    left: 897px;
+    font-size: 32px;
+}
+
+.products--description {
+    font-size: 24px;
+}
+
+.coffee--img {
+    position: absolute;
+    top: 370px;
+    left: 970px;
+    right: 166px
+}
+
+.popular--products--prices {
+    position: absolute;
+    top: 420px;
+    left: 630px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    border-radius: 60.5px/32px;
+    border: 1px solid;
+    border-color: #000000;
+    width: 121px;
+    height: 65px;
+}
+
+.price {
+    position: relative;
+    left: 34px;
+    top: 18px;
+}
+
+.products--prices--left {
+    position: absolute;
+    top: 940px;
+    left: 640px;
+    font-size: 24px;
+}
+
+.products--prices--right {
+    position: absolute;
+    top: 780px;
+    left: 1380px;
+    font-size: 24px;
+    line-height: 130%;
+    padding-right: 120px;
+}
+
+.add--ons {
+    position: absolute;
+    top: 1950px;
+    left: 102px;
+    font-size: 24px;
+}
+
+.add--on--prices {
+    position: absolute;
+    top: 1950px;
+    left: 640px;
+    font-size: 24px;
+}
+
+.contact--buttons {
+    position: absolute;
+    top: 2250px;
+    left: 102px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.company--value--img {
+    position: absolute;
+    left: 860px;
+    top: 1940px;
+}
+
+.facebook, .twitter, .instagram {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover {
+    opacity: 0.8;
+}

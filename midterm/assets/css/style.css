@@ -1,0 +1,286 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    padding: 20px 80px 20px 50px;
+    margin-bottom: 54px;
+}
+
+.nav--buttons--left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    font-family: "Lekton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #1790ff;
+    cursor: pointer;
+    height: 40px;
+}
+
+.menu {
+    color:#1790ff;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav--button--right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 222px;
+    cursor: pointer;
+}
+
+.attraction {
+    height: 627px;
+    position: relative;
+    margin-top: 300px;
+}
+
+.coffee-img {
+    text-align: center;
+}
+
+.nutrition-table {
+    position: absolute;
+    left: 120px;
+    top: -200px;
+}
+
+.cup-drawing {
+    position: absolute;
+    right: 120px;
+    top: -200px;
+}
+
+.bad-joke {
+    position:absolute;
+    left: 200px;
+    top: 160px;
+}
+
+.events {
+    position: relative;
+    height: 450px;
+    margin-bottom: 400px;
+}
+
+.events-title {
+    font-family: "Vujahday Script", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 64px;
+    color: #1790ff;
+    position: absolute;
+    left: 117px;
+}
+
+.events-description {
+    font-family: "Lekton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    left:150px;
+    top: 130px;
+    font-size: 24px;
+}
+
+.events-img {
+    position: absolute;
+    right: 100px;
+}
+
+.events-link {
+    font-family: "Lekton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    position: absolute;
+    left:130px;
+    top: 480px;
+    cursor: pointer;
+}
+
+.tea {
+    color: #F89494;
+}
+
+.coffee {
+    color: #1790ff;
+}
+
+.products {
+    position: relative;
+    margin-bottom: 54px;
+    height: 800px;
+}
+
+.products-title {
+    font-family: "Vujahday Script", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 64px;
+    color: #1790ff;
+    position: absolute;
+    left: 117px;
+}
+
+.products-array {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    position: absolute;
+    left: 130px;
+    top: 200px;
+}
+
+.memory, .dream, .heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.products-link {
+    font-family: "Lekton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.tasting-house {
+    position: relative;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.store-img {
+    position: absolute;
+    top: 80px;
+}
+
+.location {
+    position: absolute;
+    top: 725px;
+    left: 200px;
+    font-size: 24px;
+}
+
+.store-intro {
+    position: absolute;
+    top: 825px;
+    font-size: 24px;
+    font-size: 36px;
+}
+
+.store-color {
+    font-size: 48px;
+    color: #1790ff;
+    font-family: "Vujahday Script", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.store-link {
+    font-family: "Lekton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.bottom-bar {
+    height: 872px;
+    position: relative;
+    margin-top: 100px;
+    background-color: #1790ff;
+}
+
+.company-name {
+    position: absolute;
+    left: 99px;
+    top: 148px;
+    color: #F89494;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.company {
+    position:absolute;
+    left:130px;
+    top: 250px;
+    color: white;
+    font-size: 32px;
+}
+
+.learn {
+    position:absolute;
+    left: 432px;
+    top: 250px;
+    color: white;
+    font-size: 32px;
+}
+
+.bold {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.company-value-img {
+    position: absolute;
+    top: 147px;
+    right: 124px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 36px;
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+
+.contact--button {
+    position: absolute;
+    top: 600px;
+    left: 130px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+    cursor: pointer;
+}
