@@ -1,21 +1,6 @@
-.home-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.home-page .div {
-    background-color: #ffffff;
-    width: 1512px;
-    height: 982px;
-    position: relative;
-}
-
-.home-page .my-fridge {
+.logo {
     position: absolute;
-    top: 63px;
+    top: 62px;
     left: 96px;
     font-family: "Monoton", sans-serif;
     font-weight: 400;
@@ -28,6 +13,180 @@
     white-space: nowrap;
 }
 
+a:link {
+    text-decoration: none;
+    color: #1f74e5;
+}
+
+a:visited {
+    color: #1f74e5;
+}
+
+.FoodCard-list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 444px;
+    height: 630px;
+    top: 255px;
+    left: 96px;
+    gap: 44px;
+    overflow: scroll;
+    align-content: flex-start;
+}
+
+.FoodCard-wrapper1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(36.91, 175.25, 50.74) 0%, rgb(152.38, 208.31, 174.75) 100%);
+}
+
+.FoodCard-wrapper3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(231.54, 36.78, 36.78) 0%, rgb(202.83, 127.82, 127.82) 100%);
+}
+
+.FoodCard-wrapper2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(254.83, 152.9, 0) 0%, rgb(202.83, 195.33, 127.82) 100%);
+}
+
+.FoodCard-wrapper4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(99, 103, 119) 0%, rgb(136.17, 144.04, 171.95) 100%);
+}
+
+.FoodCard {
+    position: relative;
+    height: 200px;
+    background-color: #d9d9d933;
+    border-radius: 20px;
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+}
+
+.FoodEmoji {
+    top: 34px;
+    left: 30px;
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.FoodName {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.FreshFor {
+    position: absolute;
+    top: 163px;
+    left: 19px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Time {
+    position: absolute;
+    top: 153px;
+    right: 65px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Quantity-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 130px;
+    background-color: #d9d9d933;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quantity {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Unit {
+    position: absolute;
+    top: 158px;
+    left: 145px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.expired {
+    position: absolute;
+    top: 158px;
+    left: 100px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
 .home-page .overlap {
     position: absolute;
     width: 811px;
@@ -36,12 +195,16 @@
     left: 581px;
 }
 
-.home-page .group {
+.home-page .ClosedFridge {
     position: absolute;
     width: 541px;
     height: 886px;
     top: 0;
     left: 270px;
+}
+
+.ClosedFridge:hover {
+    cursor: pointer;
 }
 
 .home-page .check-more-foods-by {
@@ -58,171 +221,9 @@
     line-height: normal;
 }
 
-.home-page .overlap-group-wrapper {
+.home-page .CountDueSoon {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 221px;
-    left: 340px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgb(231.54, 36.78, 36.78) 0%, rgb(202.83, 127.82, 127.82) 100%);
-}
-
-.home-page .overlap-group {
-    position: relative;
-    height: 200px;
-    background-color: #d9d9d933;
-    border-radius: 20px;
-    backdrop-filter: blur(40px) brightness(100%);
-    -webkit-backdrop-filter: blur(40px) brightness(100%);
-}
-
-.home-page .text-wrapper {
-    top: 34px;
-    left: 30px;
-    color: #000000;
-    font-size: 40px;
-    position: absolute;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .leftover {
-    position: absolute;
-    top: 122px;
-    left: 20px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .text-wrapper-2 {
-    position: absolute;
-    top: 162px;
-    left: 19px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .text-wrapper-3 {
-    position: absolute;
-    top: 155px;
-    left: 122px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 32px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .div-wrapper {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 20px;
-    left: 130px;
-    background-color: #d9d9d933;
-    border-radius: 25px;
-}
-
-.home-page .text-wrapper-4 {
-    height: 17px;
-    top: 16px;
-    left: 12px;
-    color: #ffffff;
-    font-size: 24px;
-    position: absolute;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .text-wrapper-5 {
-    position: absolute;
-    top: 158px;
-    left: 145px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .overlap-wrapper {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 463px;
-    left: 96px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgb(231.54, 36.78, 36.78) 0%, rgb(202.83, 127.82, 127.82) 100%);
-}
-
-.home-page .group-2 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 221px;
-    left: 96px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgb(231.54, 36.78, 36.78) 0%, rgb(202.83, 127.82, 127.82) 100%);
-}
-
-.home-page .element {
-    top: 155px;
-    left: 118px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    font-size: 32px;
-    text-align: right;
-    position: absolute;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .element-2 {
-    height: 17px;
-    top: 16px;
-    left: 10px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    font-size: 24px;
-    text-align: center;
-    position: absolute;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.home-page .p {
-    position: absolute;
-    top: 155px;
+    top: 138px;
     left: 96px;
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
@@ -231,4 +232,126 @@
     font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
+}
+
+.morefood {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.morefood .OpenedFridge {
+    position: absolute;
+    right: 50px;
+    top: 313px;
+}
+
+.CategorySelector {
+    position: absolute;
+    top: 145px;
+    left: 96px;
+    width: 650px;
+    height: 48px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+.CategorySelector .overlap-group {
+    position: relative;
+    height: 39px;
+    top: 5px;
+    border-radius: 10px;
+}
+
+.CategorySelector .rectangle {
+    position: absolute;
+    width: 123px;
+    height: 35px;
+    top: 2px;
+    left: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.CategorySelector .navbar {
+    display: flex;
+    width: 583px;
+    height: 39px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#category:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#category .all {
+    font-size: 200px;
+}
+
+.CategorySelector .all {
+    width: 109px;
+    color: #1f74e5;
+    text-align: center;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.CategorySelector .due-soon {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    background: linear-gradient(180deg, rgb(231.54, 36.78, 36.78) 0%, rgb(202.83, 127.82, 127.82) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.CategorySelector .everyday {
+    width: fit-content;
+    background: linear-gradient(180deg, rgb(36.91, 175.25, 50.74) 0%, rgb(152.38, 208.31, 174.75) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.CategorySelector .past-due {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    background: linear-gradient(180deg, rgb(136.17, 144.04, 171.95) 0%, rgb(102, 102, 102) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
 }
